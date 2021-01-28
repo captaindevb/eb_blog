@@ -11,14 +11,14 @@ draft: false
 
 ```sh
 # create a new Gatsby site using the blog starter
-$ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
+$ npx gatsby new my-blog-starter https://github.com/captaindevb/blog
 ```
 
 > If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
 
 ```sh
 $ npm install -g gatsby-cli
-$ gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
+$ gatsby new my-blog-starter https://github.com/captaindevb/blog
 ```
 
 ## 2. Start developing.

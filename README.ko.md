@@ -82,14 +82,14 @@ In this template...
 
 ```sh
 # 이 블로그 스타터를 사용하여 gatsby 프로젝트를 시작할 수 있습니다.
-npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
+npx gatsby new my-blog-starter https://github.com/captaindevb/blog
 ```
 
 > 만약 `npx`를 사용하고 있지 않는다면, [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start) 글을 참고하거나 아래 커맨드를 실행해주세요.
 
 ```sh
 npm install -g gatsby-cli
-gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
+gatsby new my-blog-starter https://github.com/captaindevb/blog
 ```
 
 ### 2. 이제 로컬에서 확인하실 수 있습니다
@@ -198,7 +198,7 @@ src/styles
 
 ## :bug: 버그제보
 
-[Issue](https://github.com/JaeYeopHan/gatsby-starter-bee/issues)
+[Issue](https://github.com/captaindevb/blog/issues)
 
 ## 🎁 기여하기
 

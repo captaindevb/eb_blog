@@ -88,14 +88,14 @@ In this template...
 
 ```sh
 # create a new Gatsby site using the blog starter
-npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
+npx gatsby new my-blog-starter https://github.com/captaindevb/blog
 ```
 
 > If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
 
 ```sh
 npm install -g gatsby-cli
-gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
+gatsby new my-blog-starter https://github.com/captaindevb/blog
 ```
 
 ### 2. Start developing
@@ -202,7 +202,7 @@ If you are currently writing in the Medium, consider migration with [medium-to-o
 
 ## :bug: Bug reporting
 
-[Issue](https://github.com/JaeYeopHan/gatsby-starter-bee/issues)
+[Issue](https://github.com/captaindevb/blog/issues)
 
 ## 🎁 Contributing
 
@@ -214,7 +214,7 @@ If you are currently writing in the Medium, consider migration with [medium-to-o
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 
-<a href="https://github.com/JaeYeopHan/gatsby-starter-bee/graphs/contributors">
+<a href="https://github.com/captaindevb/blog/graphs/contributors">
 <img src="https://opencollective.com/gatsby-starter-bee/contributors.svg?width=890&button=false" />
 </a>
 

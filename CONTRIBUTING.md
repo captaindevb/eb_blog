@@ -25,7 +25,7 @@ $ git commit [...]
 $ git push origin [YOUR_REPOSITORY]
 
 # Enroll pull-request!
-# in https://github.com/JaeYeopHan/gatsby-starter-bee
+# in https://github.com/captaindevb/blog
 ```
 
 ## Commit message rules
@@ -46,4 +46,3 @@ Consider starting the commit message with an applicable emoji:
 ### Thanks!
 
 > I'm waiting for your pull request. :pray:
-

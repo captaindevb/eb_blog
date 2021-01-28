@@ -113,4 +113,4 @@ $$\prod_{i=a}^{b} f(i)$$
 5. Offline caching with service worker (based gatsby)
 6. Support GA(Google Analytics)
 
-> Let's Start! [Go](https://github.com/JaeYeopHan/gatsby-starter-bee)
+> Let's Start! [Go](https://github.com/captaindevb/blog)
