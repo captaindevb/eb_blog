@@ -4,7 +4,8 @@ body.light {
 
   // home
   .home-header {
-    color: $dark-gray;
+    color: #b7aefe;
+    text-shadow: 2px 4px #835ce7;
   }
 
   .bio {
@@ -15,7 +16,7 @@ body.light {
       color: $middle-gray;
     }
     a {
-      color: $light-link-color;
+      color: #6228d8;
     }
   }
 

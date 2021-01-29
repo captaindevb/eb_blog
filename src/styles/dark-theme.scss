@@ -5,7 +5,8 @@ body.dark {
 
   // home
   .home-header {
-    color: $dark-light-font-color;
+    color: #b7aefe;
+    text-shadow: 2px 4px #835ce7;
   }
 
   .bio {
@@ -16,7 +17,7 @@ body.dark {
       color: $dark-middle-font-color;
     }
     a {
-      color: $dark-link-color;
+      color: #835ce7;
     }
   }
 
