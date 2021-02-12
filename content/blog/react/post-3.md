@@ -18,7 +18,7 @@ useMemo를 사용하기 전에 꼭 짚고 넘어가야 할 개념이다. useMemo
 
 아래 코드 예시를 보자.
 
-```js{3}
+```js
 function test({ x, y }) {
   const result = add(x, y)
   return <div>{result}</div>
@@ -27,7 +27,7 @@ function test({ x, y }) {
 
 위 함수는 간단하게 x,y 값을 받아 add라는 함수로 계산 후 컴포넌트로 리턴하는 함수이다. 현재는 test 함수가 간단하지만, 만약 이 함수가 복잡한 계산으로 인해 수 초 이상 걸리는 함수가 된다면 UI는 랜더링 할때마다 계산을 하게되므로 약간의 지연이 발생할 수 있다. 그렇다면 위와같은 함수를 useMemo에 적용하면 어떨까.
 
-```js{3}
+```js
 function test({ x, y }) {
   const result = useMemo(() => add(x, y), [x, y])
   return <div>{result}</div>

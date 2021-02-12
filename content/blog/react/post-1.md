@@ -11,7 +11,7 @@ draft: false
 레이아웃 배치, 화면 그리기를 완료 한 후 실행된다.
 사용법은 마운트 될때 한번만 실행할 경우 혹은 특정 값이 바뀌었을때 사용할 경우 두가지의 경우가 있다.
 
-```js{3}
+```js
 import React, { useEffect } from 'react'
 
 //컴포넌트가 렌더링 될 때 최초 1회
@@ -32,7 +32,7 @@ useEffect(() => {
 
 또한 return 구문을 넣어 뒷정리 함수를 넣어줄 수 있다.
 
-```js{3}
+```js
 import React, { useEffect } from 'react'
 
 useEffect(() => {
@@ -49,7 +49,7 @@ useEffect(() => {
 useEffect와 비슷한 역할을 하지만, 다른 점은 화면이 렌더링 되기 전에 실행된다는 점이다.
 useEffect는 레이아웃 배치가 다 된 후 실행하지만 useLayoutEffect는 그 전에 실행된다. 다음 코드를 보자.
 
-```js{3}
+```js
 import React, { useEffect, useLayoutEffect } from 'react'
 
 useEffect(() => {

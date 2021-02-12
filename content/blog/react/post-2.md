@@ -12,7 +12,7 @@ useCallback은 react의 hooks 중 하나로, 주로 렌더링 성능을 최적�
 나는 실제로 프로젝트에서 라우터를 분기에 따라 리턴 해 주는 함수를 만들었는데, 라우터가 변경될때마다 memory reak 현상이 발생되었다.
 기존 소스를 보자.
 
-```js{3}
+```js
 import React from 'react'
 
 const mypageNaviList = [
@@ -45,7 +45,7 @@ const MypageRouter = () => {
 
 실제로 이 소스는 잘 작동했지만, react memory leak 워닝이 페이지가 바뀔때 마다 떴다. 컴포넌트가 바뀔때마다 계속해서 함수를 새로 생성하기 때문이다. 그래서 위 소스를 useCallbak을 사용하여 아래와 같이 변경하였다.
 
-```js{3}
+```js
 import React from 'react'
 
 const mypageNaviList = [
